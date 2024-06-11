@@ -19,6 +19,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 The update sequence is kicked off by the user connecting the *standalone* **Updater Board** to the exposed USB port on the drone. The **Updater Board** is powered by the drone and is capable of updating the drone's onboard software. The software is bundled into Docker Images and is stored on the **Updater Board**.
 The Update sequence for the drone is as follows:
 
+<!-- Update Sequence Diagram -->
+![Update Sequence Diagram](images/UpdateSequence.drawio.svg)
+
 **Drone Update Sequence**
 1. The **Updater Board** is connected to the drone.
 2. The **Updater Board** checks for running containers that matched the **Updater Board**'s Docker Images.
