@@ -20,7 +20,7 @@ The update sequence is kicked off by the user connecting the *standalone* **Upda
 The Update sequence for the drone is as follows:
 
 <!-- Update Sequence Diagram -->
-![Update Sequence Diagram](images/UpdateSequence.drawio.svg)
+![Update Sequence Diagram](images/UpdateSequence.png)
 
 **Drone Update Sequence**
 1. The **Updater Board** is connected to the drone.
