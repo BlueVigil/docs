@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T15:34:24.386Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="AZ0zOXNKUvAn83QWmvtP" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T15:47:14.579Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="VG3B3iHIW1ZZL9eP8F0U" version="24.5.3" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2795" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3895" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-17" value="Updater" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="90" y="83" width="170" height="190" as="geometry" />
+          <mxGeometry x="-920" y="40" width="170" height="190" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-21" value="Stores and Upload Software and Firmware Updates for All Systems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="170" height="34" as="geometry" />
@@ -25,26 +25,59 @@
         <mxCell id="78961159f06e98e8-27" value="Start Update Sequence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="164" width="170" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;shape=link;" edge="1" parent="1" source="aO4e5Z6ATW2f392X6MZ--3" target="aO4e5Z6ATW2f392X6MZ--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aO4e5Z6ATW2f392X6MZ--3" target="aO4e5Z6ATW2f392X6MZ--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aO4e5Z6ATW2f392X6MZ--3" value="Begin Upload of new software to RPi" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="83" width="120" height="60" as="geometry" />
+          <mxGeometry x="-670" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;dashed=1;" edge="1" parent="1" source="aO4e5Z6ATW2f392X6MZ--6" target="aO4e5Z6ATW2f392X6MZ--19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aO4e5Z6ATW2f392X6MZ--6" value="Begin Upload of New Teensy Firmware" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1030" y="417" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aO4e5Z6ATW2f392X6MZ--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78961159f06e98e8-27" target="aO4e5Z6ATW2f392X6MZ--6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aO4e5Z6ATW2f392X6MZ--13" value="Internal Software for RPi" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="205" width="140" height="120" as="geometry" />
+          <mxGeometry x="-670" y="190" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="aO4e5Z6ATW2f392X6MZ--14" value="MavProxy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--13">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aO4e5Z6ATW2f392X6MZ--15" value="Mission Controller" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--13">
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--18" value="Mission Controller" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--13">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aO4e5Z6ATW2f392X6MZ--16" value="MavProxy Commander" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--13">
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--15" value="Mission Controller" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--13">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--16" value="MavProxy Commander" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--13">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--19" value="Firmware&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="527" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--20" value="GCS Controller" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--19">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--21" value="Pendant Firmware" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--19">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--22" value="ALED Power Board Firmware" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aO4e5Z6ATW2f392X6MZ--19">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aO4e5Z6ATW2f392X6MZ--27" target="aO4e5Z6ATW2f392X6MZ--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--27" value="Based on Present Docker Images, begin stopping images if running." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="105" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="aO4e5Z6ATW2f392X6MZ--29" value="Load New Version of Images and Start container via Docker Compose" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="105" width="120" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
